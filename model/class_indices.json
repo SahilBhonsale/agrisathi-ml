@@ -1,0 +1,16 @@
+{
+  "Apple___Apple_scab": 0,
+  "Apple___Black_rot": 1,
+  "Apple___Cedar_apple_rust": 2,
+  "Apple___healthy": 3,
+  "Tomato___Bacterial_spot": 4,
+  "Tomato___Early_blight": 5,
+  "Tomato___Late_blight": 6,
+  "Tomato___Leaf_Mold": 7,
+  "Tomato___Septoria_leaf_spot": 8,
+  "Tomato___Spider_mites Two-spotted_spider_mite": 9,
+  "Tomato___Target_Spot": 10,
+  "Tomato___Tomato_Yellow_Leaf_Curl_Virus": 11,
+  "Tomato___Tomato_mosaic_virus": 12,
+  "Tomato___healthy": 13
+}

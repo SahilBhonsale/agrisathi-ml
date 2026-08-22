@@ -1,0 +1,15 @@
+.git
+.venv-ml
+plantvillage dataset
+model/.feature-cache
+model/dataset
+model/*.ipynb
+model/mv2
+demo-images
+frontend/node_modules
+frontend/dist
+backend/node_modules
+backend/.env
+backend/cookies.txt
+backend/uploads/products
+**/.DS_Store

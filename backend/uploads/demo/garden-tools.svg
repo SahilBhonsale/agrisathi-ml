@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#edf4df"/><stop offset="1" stop-color="#bad2c0"/></linearGradient></defs>
+  <rect width="800" height="520" rx="32" fill="url(#g)"/>
+  <g transform="translate(205 82) rotate(-18 90 180)"><rect x="72" y="105" width="36" height="300" rx="18" fill="#9b643d"/><path d="M38 45h104l-17 110H55Z" fill="#56666a"/></g>
+  <g transform="translate(385 68) rotate(15 90 180)"><rect x="72" y="105" width="36" height="300" rx="18" fill="#9b643d"/><path d="M43 42h94v30H43Z" fill="#56666a"/><path d="M52 64v95M90 64v95M128 64v95" stroke="#56666a" stroke-width="18" stroke-linecap="round"/></g>
+  <text x="400" y="470" text-anchor="middle" font-family="Arial,sans-serif" font-size="30" font-weight="700" fill="#19352b">FIELD-READY TOOLS</text>
+</svg>

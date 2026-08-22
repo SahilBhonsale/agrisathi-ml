@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#dcefd2"/><stop offset="1" stop-color="#c7a478"/></linearGradient></defs>
+  <rect width="800" height="520" rx="32" fill="url(#g)"/>
+  <path d="M174 190h450l-45 245H219Z" fill="#805a3b"/><path d="M155 174c0-29 24-52 52-52h386c29 0 52 23 52 52v25H155Z" fill="#a9794e"/>
+  <path d="M400 315c-89-45-113-121-50-163 15 63 69 85 119 95-11 75-48 128-112 158 17-31 31-59 43-90Z" fill="#4f8c4c"/>
+  <text x="400" y="470" text-anchor="middle" font-family="Arial,sans-serif" font-size="30" font-weight="700" fill="#19352b">ORGANIC VERMICOMPOST</text>
+</svg>

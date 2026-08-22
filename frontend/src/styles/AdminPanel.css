@@ -1,0 +1,15 @@
+.admin-panel { display: grid; gap: 24px; }
+.admin-state { display: grid; min-height: 300px; place-items: center; color: var(--muted); }.admin-state.error { align-content: center; gap: 14px; }
+.admin-metrics { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 15px; }
+.admin-metrics article { display: flex; align-items: center; gap: 15px; padding: 22px; background: #fff; border: 1px solid var(--border); border-radius: 18px; box-shadow: var(--shadow-soft); }
+.admin-metrics article > span { display: grid; width: 46px; height: 46px; place-items: center; color: white; background: var(--primary); border-radius: 14px; font-size: 1.2rem; }
+.admin-metrics article div { display: flex; flex-direction: column; }.admin-metrics strong { font-family: 'Manrope', sans-serif; font-size: 1.55rem; }.admin-metrics small { color: var(--muted); }
+.admin-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 18px; }
+.admin-table-card { overflow: hidden; background: white; border: 1px solid var(--border); border-radius: 20px; box-shadow: var(--shadow-soft); }.admin-table-card.wide { grid-column: 1 / -1; }
+.admin-table-card header { padding: 21px 23px; border-bottom: 1px solid var(--border); }.admin-table-card h2 { margin: 0; font-size: 1.05rem; }
+.admin-list > div { display: grid; grid-template-columns: 42px minmax(0,1fr) auto; gap: 12px; align-items: center; padding: 14px 22px; border-bottom: 1px solid #edf0ed; }.admin-list > div:last-child { border: 0; }
+.admin-list.compact > div { grid-template-columns: minmax(0,1fr) auto; }
+.admin-list span:not(.list-avatar) { display: flex; min-width: 0; flex-direction: column; }.admin-list strong { overflow: hidden; font-size: .87rem; text-overflow: ellipsis; white-space: nowrap; }.admin-list small { color: var(--muted); font-size: .75rem; }.admin-list em { color: var(--primary); font-size: .74rem; font-style: normal; font-weight: 800; text-transform: capitalize; }
+.list-avatar { display: grid; width: 38px; height: 38px; place-items: center; color: white; background: var(--earth); border-radius: 12px; font-weight: 800; }.list-avatar.product { background: var(--primary); }
+@media (max-width: 900px) { .admin-metrics { grid-template-columns: repeat(2, 1fr); }.admin-grid { grid-template-columns: 1fr; }.admin-table-card.wide { grid-column: auto; } }
+@media (max-width: 520px) { .admin-metrics { grid-template-columns: 1fr; } }

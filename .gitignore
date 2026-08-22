@@ -1,0 +1,34 @@
+# Dependencies and build output
+node_modules/
+frontend/dist/
+dist/
+
+# Local environment files and platform metadata
+.env
+.env.*
+!.env.example
+!**/.env.example
+.vercel/
+
+# Local Python and ML caches
+.venv-ml/
+**/__pycache__/
+**/.ipynb_checkpoints/
+*.py[cod]
+model/.feature-cache/
+model/training-report.json
+
+# Training datasets stay local; the trained model and training code are versioned
+model/dataset/
+model/mv2/dataset/
+
+# Runtime uploads (demo assets remain tracked)
+backend/uploads/products/
+
+# Local tooling, operating-system, and presentation artifacts
+.tmp/
+.DS_Store
+*.log
+*.pptx
+*.pptx.inspect.ndjson
+~$*

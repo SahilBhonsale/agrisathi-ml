@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+  <title id="title">AgriSathi</title>
+  <desc id="desc">A young plant growing above cultivated fields at sunrise</desc>
+  <defs>
+    <linearGradient id="ground" x1="8" y1="4" x2="57" y2="61" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#36734A"/>
+      <stop offset="1" stop-color="#173D29"/>
+    </linearGradient>
+    <linearGradient id="leaf" x1="22" y1="17" x2="44" y2="35" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#DCECBE"/>
+      <stop offset="1" stop-color="#A9CF70"/>
+    </linearGradient>
+    <clipPath id="frame">
+      <rect x="2" y="2" width="60" height="60" rx="17"/>
+    </clipPath>
+  </defs>
+
+  <rect x="2" y="2" width="60" height="60" rx="17" fill="url(#ground)"/>
+  <g clip-path="url(#frame)">
+    <circle cx="46" cy="17" r="8" fill="#E8B84F"/>
+    <path d="M-5 47C9 36 21 37 33 44C44 50 55 47 69 37V70H-5V47Z" fill="#75A650"/>
+    <path d="M-5 53C10 43 23 44 34 50C45 56 56 53 69 44V70H-5V53Z" fill="#336F43"/>
+    <path d="M1 61C16 51 29 52 39 57C49 62 57 59 66 53" fill="none" stroke="#E7B54C" stroke-width="3.2" stroke-linecap="round"/>
+    <path d="M12 66C23 57 33 56 44 61" fill="none" stroke="#9BC56A" stroke-width="2.6" stroke-linecap="round" opacity=".88"/>
+
+    <path d="M31.5 39V24" fill="none" stroke="#F4F1DA" stroke-width="2.8" stroke-linecap="round"/>
+    <path d="M31 28C25 27 20 23 19 17C25 16 31 19 33 24C33 26 32 27 31 28Z" fill="url(#leaf)"/>
+    <path d="M33 25C34 19 39 15 46 15C46 21 42 27 35 29C33 28 32 27 33 25Z" fill="#F2F3D6"/>
+    <circle cx="31.5" cy="39" r="2" fill="#F4F1DA"/>
+  </g>
+  <rect x="3" y="3" width="58" height="58" rx="16" fill="none" stroke="#FFFFFF" stroke-opacity=".16" stroke-width="2"/>
+</svg>

@@ -1,0 +1,17 @@
+{
+  "name": "agrisathi",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "build": "npm run build --workspace frontend",
+    "vercel-build": "npm run build --workspace frontend",
+    "start": "npm run start --workspace backend"
+  },
+  "engines": {
+    "node": "22.x"
+  }
+}

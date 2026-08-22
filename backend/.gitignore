@@ -1,0 +1,7 @@
+node_modules/
+.env
+uploads/*
+!uploads/demo/
+!uploads/demo/*.svg
+*.log
+.DS_Store

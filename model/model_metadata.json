@@ -1,0 +1,147 @@
+{
+  "name": "AgriSathi MobileNetV2 Plant Disease Classifier",
+  "version": "1.0.0",
+  "architecture": "MobileNetV2 transfer learning",
+  "inputSize": [
+    224,
+    224,
+    3
+  ],
+  "classes": [
+    "Apple___Apple_scab",
+    "Apple___Black_rot",
+    "Apple___Cedar_apple_rust",
+    "Apple___healthy",
+    "Tomato___Bacterial_spot",
+    "Tomato___Early_blight",
+    "Tomato___Late_blight",
+    "Tomato___Leaf_Mold",
+    "Tomato___Septoria_leaf_spot",
+    "Tomato___Spider_mites Two-spotted_spider_mite",
+    "Tomato___Target_Spot",
+    "Tomato___Tomato_Yellow_Leaf_Curl_Virus",
+    "Tomato___Tomato_mosaic_virus",
+    "Tomato___healthy"
+  ],
+  "classIndices": {
+    "Apple___Apple_scab": 0,
+    "Apple___Black_rot": 1,
+    "Apple___Cedar_apple_rust": 2,
+    "Apple___healthy": 3,
+    "Tomato___Bacterial_spot": 4,
+    "Tomato___Early_blight": 5,
+    "Tomato___Late_blight": 6,
+    "Tomato___Leaf_Mold": 7,
+    "Tomato___Septoria_leaf_spot": 8,
+    "Tomato___Spider_mites Two-spotted_spider_mite": 9,
+    "Tomato___Target_Spot": 10,
+    "Tomato___Tomato_Yellow_Leaf_Curl_Virus": 11,
+    "Tomato___Tomato_mosaic_virus": 12,
+    "Tomato___healthy": 13
+  },
+  "trainingSamples": 14925,
+  "validationSamples": 3200,
+  "testSamples": 3206,
+  "bestValidationAccuracy": 0.9387500286102295,
+  "testAccuracy": 0.9575795383655645,
+  "epochsCompleted": 20,
+  "classificationReport": {
+    "Apple___Apple_scab": {
+      "precision": 0.9578947368421052,
+      "recall": 0.9578947368421052,
+      "f1-score": 0.9578947368421052,
+      "support": 95.0
+    },
+    "Apple___Black_rot": {
+      "precision": 0.9891304347826086,
+      "recall": 0.9680851063829787,
+      "f1-score": 0.978494623655914,
+      "support": 94.0
+    },
+    "Apple___Cedar_apple_rust": {
+      "precision": 0.9534883720930233,
+      "recall": 0.9761904761904762,
+      "f1-score": 0.9647058823529412,
+      "support": 42.0
+    },
+    "Apple___healthy": {
+      "precision": 0.9919028340080972,
+      "recall": 0.9919028340080972,
+      "f1-score": 0.9919028340080972,
+      "support": 247.0
+    },
+    "Tomato___Bacterial_spot": {
+      "precision": 0.9596273291925466,
+      "recall": 0.965625,
+      "f1-score": 0.9626168224299065,
+      "support": 320.0
+    },
+    "Tomato___Early_blight": {
+      "precision": 0.9084507042253521,
+      "recall": 0.86,
+      "f1-score": 0.8835616438356164,
+      "support": 150.0
+    },
+    "Tomato___Late_blight": {
+      "precision": 0.9680851063829787,
+      "recall": 0.9512195121951219,
+      "f1-score": 0.9595782073813708,
+      "support": 287.0
+    },
+    "Tomato___Leaf_Mold": {
+      "precision": 0.9424460431654677,
+      "recall": 0.916083916083916,
+      "f1-score": 0.9290780141843972,
+      "support": 143.0
+    },
+    "Tomato___Septoria_leaf_spot": {
+      "precision": 0.9261992619926199,
+      "recall": 0.943609022556391,
+      "f1-score": 0.9348230912476723,
+      "support": 266.0
+    },
+    "Tomato___Spider_mites Two-spotted_spider_mite": {
+      "precision": 0.9163498098859315,
+      "recall": 0.9563492063492064,
+      "f1-score": 0.9359223300970874,
+      "support": 252.0
+    },
+    "Tomato___Target_Spot": {
+      "precision": 0.9014084507042254,
+      "recall": 0.909952606635071,
+      "f1-score": 0.9056603773584906,
+      "support": 211.0
+    },
+    "Tomato___Tomato_Yellow_Leaf_Curl_Virus": {
+      "precision": 0.98875,
+      "recall": 0.9838308457711443,
+      "f1-score": 0.986284289276808,
+      "support": 804.0
+    },
+    "Tomato___Tomato_mosaic_virus": {
+      "precision": 0.8983050847457628,
+      "recall": 0.9464285714285714,
+      "f1-score": 0.9217391304347826,
+      "support": 56.0
+    },
+    "Tomato___healthy": {
+      "precision": 0.9747899159663865,
+      "recall": 0.9707112970711297,
+      "f1-score": 0.9727463312368972,
+      "support": 239.0
+    },
+    "accuracy": 0.9575795383655645,
+    "macro avg": {
+      "precision": 0.9483448631419361,
+      "recall": 0.9498487951081579,
+      "f1-score": 0.9489291653101489,
+      "support": 3206.0
+    },
+    "weighted avg": {
+      "precision": 0.957799297167523,
+      "recall": 0.9575795383655645,
+      "f1-score": 0.9575829429537498,
+      "support": 3206.0
+    }
+  }
+}
